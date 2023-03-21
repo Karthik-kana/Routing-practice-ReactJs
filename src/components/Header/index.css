@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.images-container {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+}
+.heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #12022f;
+  margin-left: 6px;
+}
+.nav-element {
+  text-decoration: none;
+  margin: 10px;
+  color: #12022f;
+  font-family: 'Roboto';
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
